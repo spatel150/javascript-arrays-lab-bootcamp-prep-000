@@ -38,5 +38,11 @@ function removeLastKitten() {
   return kittens.slice(0, kittens.length - 1);
 }
 
+=======
+  kittens.slice(-2);
+  return kittens;
+}
+
+>>>>>>> 0029d26c0a4c216470c5bdd985e6d9d334ce9dc5
 
 
